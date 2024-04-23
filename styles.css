@@ -1,0 +1,150 @@
+
+.navbar-brand{
+    padding-left: 2%;
+    height: 15vh;
+    display: flex;
+    align-items: center; /* Centrar verticalmente los elementos */
+
+}
+
+.conteriner-fluid{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+header nav ul{
+    display: flex;
+    
+}
+
+header nav ul li:hover a{
+    font-weight: bold;
+  
+}
+
+.navbar-brand img {
+    height: 100%; /* Adjust as needed based on image aspect ratio */  
+}
+
+#navbarSupportedContent{
+    padding-right: 2%;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1);
+}
+
+.carousel-inner{
+    height: 80vh;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.titular_cards{
+   margin-top: 2%;
+   margin-left: 2%;
+}
+
+#contenedor_cards{
+    display: inline;
+}
+
+.card{
+    
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 25%;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card a h3{
+    text-align: center;
+}
+
+.card a p{
+    text-align: justify;
+}
+
+.card-header{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+.card-header img{
+    
+    width: 100%;
+
+}
+
+.card-content{
+    padding: 5%;
+    justify-content: center;
+}
+
+.card-content h3{
+    text-justify:auto;
+
+}
+
+.panel-investigacion{
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.panel-investigacion .container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel-investigacion .container a svg{
+    height: 5rem;
+
+}
+
+.panel-investigacion .container a:hover svg{
+    fill: orange;
+    
+}
+
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+}
+
+.container img{
+    height: 15vh;
+    display: inline;
+    
+}
+
