@@ -87,16 +87,23 @@ header nav ul li:hover a{
 .container{
     display: flex;
     justify-content: center;
+    
+}
+
+.container .columna{
+    justify-content: center;
 }
 
 .card-container{
+    
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 .card{
-    width: 325px;
+    
+    max-width: 325px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -189,6 +196,10 @@ header nav ul li:hover a{
 
     .carousel{
         height: 40vh;
+    }
+
+    .card-container{
+        width: 70%;
     }
 
 }
