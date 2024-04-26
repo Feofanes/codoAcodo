@@ -11,3 +11,9 @@ Continúa una serie de novedades institucionales presentadas en cards que deriva
 Sigue una parte destinada puramente a la investigación, en la cual unos íconos con efecto hover linkearían a páginas específicas dentro del sitio.
 
 Finalmente, en el footer se encuentran algunos logos de instituciones vinculadas, info de contacto con el link a instagram y un mapa que muestra la localización del Instituto (facultad de medicina de la universidad nacional de Rosario FCM-UNR)
+
+CONSULTAS QUE ME SURGIERON:
+
+1.- me quedo la sensacion que tanto el carousel como las cards funcionan adecuadamente cuando las imagenes tienen un tamano y proporcion similar entre ellas (ancho y alto), caso contrario quedan medio en cualquiera. Mi consulta es: como funcionaria esto el dia de manana con un cliente que probablemente a su sitio suba fotos sin reparar demasiado en respetar un patron de dimensiones rigido?
+
+2.- he procurado evitar unidades fijas de medidas, como "px" y tratar de cubrir los distintos tamanos de pantalla...sin embargo la responsividad de mi pagina malisima. Se ve espantosa en el celular. Que me falto?

@@ -95,14 +95,12 @@ header nav ul li:hover a{
 }
 
 .card-container{
-    
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 .card{
-    
     max-width: 325px;
     border-radius: 10px;
     overflow: hidden;
@@ -125,6 +123,7 @@ header nav ul li:hover a{
 
 .container .card-container a:hover{
     transform: scale(1.01);
+    
 }
 
 
@@ -138,17 +137,22 @@ header nav ul li:hover a{
 
 }
 
-.panel-investigacion .container {
-    display: inline;
+.panel-investigacion .container .columna_svg a{
+    margin-top: 5%;
+    display: flex;
+    padding: 2%;
     justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 
 }
 
-.panel-investigacion .container a svg{
-    height: 5rem;
+.panel-investigacion .container .columna_svg a svg{
+    height: 13vh;
+    width: auto;
 
+    
 }
+
 
 .panel-investigacion .container a:hover svg{
     fill: orange;
@@ -158,36 +162,56 @@ header nav ul li:hover a{
 
 /*  ----------- FOOTER -----------  */
 .container_footer{
-    margin-top: 5%;
+    background-color: #F8F9FA;
+    
     margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 
-.container_footer img{
-    height: 15vh;
-    display: inline;
+.container_footer .columna_footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
+
+.container_footer .columna_footer p{
+    text-align: justify;
+    padding: 4%;
+}
+
+.container_footer .columna_footer img{
+    margin-left: 4%;
+    height: 15vh;
+    
+}
+
 
 .container_footer a:hover svg{
     fill: orange;
+    transform: scale(1.1);
 }
 
-.container_footer iframe{
-    background-color: seashell;
-}
 
 .container_footer iframe{
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    
+    
 }
 
-.container_footer a svg{
+.container_footer .columna_footer a svg{
     display: inline;
     color: black;
     text-decoration: none;
+    height: 25px;
 
 }
+
 
 @media (max-width: 576px){
     .carousel .carousel-inner .carousel-item .carousel-caption h5{
@@ -201,6 +225,8 @@ header nav ul li:hover a{
     .card-container{
         width: 70%;
     }
+
+    
 
 }
 
